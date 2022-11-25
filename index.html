@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wrenn's Portfolio</title>
+  </head>
+<!--start of page coding-->  
+ <div class="wrapper"> 
+  <body>
+     <div id="navbar" class="navbar">
+       <div class="name">
+         <h1>Wrenn Milbourn</h1>
+         <h2>portfolio</h2>
+       </div>
+       <nav>
+         <ul>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#online-presence">Online Presence</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+     </div>
+   <div class="content">
+     <section id="welcome-section" class="welcome-section">
+       <p class="heading">welcome</p>
+       <h1>My name is Wrenn. Thanks for being here.</h1>
+       <p class="welcome-text">This page was created as a final project for an online Responsive Web Design certificate through freeCodeCamp. Check out the projects I've completed below. I've linked a few of my online profiles in the Online Presence section. You can also contact me using the form at the bottom of the page. Also, I'm not crazy about this layout but it was required for the project.</p>
+     </section>
+     <section id="projects">
+       <p class="heading">projects</p>
+         <div class="project-grid">
+            <a href="https://codepen.io/wmilbourn/pen/oNyYNaR"
+               target="_blank"
+               class="project-tile"
+               ><img 
+                 class="project-img"
+                 src="https://images.unsplash.com/photo-1664058986963-5f531744c710?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                 alt="survey form">
+              <p class="project-title">Survey Form</p>
+            </a>
+
+         <a href="https://codepen.io/wmilbourn/pen/mdKOdoe"
+               target="_blank"
+               class="project-tile"
+               ><img 
+                 class="project-img"
+                 src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                 alt="tribute page">
+              <p class="project-title">Tribute Page</p>
+            </a>
+
+           <a href="https://codepen.io/wmilbourn/pen/xxzRxve"
+               target="_blank"
+               class="project-tile"
+               ><img 
+                 class="project-img"
+                 src="https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                 alt="Technical Documentation">
+              <p class="project-title">Technical Documentation</p>
+            </a>
+
+          <a href="https://codepen.io/wmilbourn/pen/wvXoBgr"
+               target="_blank"
+               class="project-tile"
+               ><img 
+                 class="project-img"
+                 src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                 alt="tribute page">
+              <p class="project-title">Product Landing Page</p>
+            </a>
+         </div>
+     </section>
+     <section id="online-presence">
+       <p class="heading">online presence</p>
+        <div class="online">
+         <a href="www.linkedin.com/in/wrenn-milbourn-13065058" class="fa fa-linkedin" target="_blank"><span class="cap">LinkedIn</a>
+           <a href="https://codepen.io/wmilbourn" class="fa fa-codepen" target="_blank"><span class="cap">CodePen</span></a>
+           <a href="https://www.freecodecamp.org/wmilbourn" class="fa fa-free-code-camp" id="profile-link" target="_blank"><span class="cap">freeCodeCamp</span></a>
+       </div>
+     </section>
+     <section id="contact">
+       <p class="heading">contact</p>
+        <form id="contact-info">
+          <fieldset>
+            <label id="name-label" for="name">Name </label>
+              <input
+                     id="name"
+                     name="name"
+                     type="text"
+                     placeholder="your name">
+            <label id="email-label" for="email">Email </label>
+              <input
+                     required
+                     id="email"
+                     name="email"
+                     type="email"
+                     placeholder="your email (required)">
+            <label id="message" for="message">Message </label>
+              <textarea
+                     id="message"
+                     name="message"
+                     placeholder="leave a message"
+                     rows="4"
+                        columns="50"></textarea>
+          </fieldset>
+          <div class="submit"><button type="submit" id="submit">Submit</button></div>
+     </section>
+    </div>
+   </body>
+   <footer>
+     Created by Wrenn Milbourn, 2022
+   </footer>
+</div>
+</html>
